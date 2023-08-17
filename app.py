@@ -1,5 +1,7 @@
 #! /usr/bin/env python3
 
+import time
+
 __version__ = "0.2.0"
 __author__ = "Marcelo Garcia"
 __license__ = "unlicense"
@@ -7,6 +9,7 @@ __license__ = "unlicense"
 #entrada de dados
 n1 = float(input("Digite o primeiro número: "))
 n2 = float(input("Digite o segundo número: "))
+time.sleep(1)
 print("Operações:\n1-Soma\n2-Subtração\n3-Multiplicação\n4-Divisão")
 
 oper = {
@@ -34,7 +37,8 @@ while flag:
 for key, value in oper.items():
     if key == operation:
         print(f"A operação escolhida foi {value}.")
-
+time.sleep(1)
 print(f"Você digitou os números: {n1} e {n2}.")
+time.sleep(1)
 print(f"O resultado da operação é: {res}")
 
