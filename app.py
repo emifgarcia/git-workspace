@@ -4,7 +4,7 @@ import time
 
 __version__ = "0.2.0"
 __author__ = "Marcelo Garcia"
-__license__ = "unlicense"
+__license__ = "license"
 
 #entrada de dados
 n1 = float(input("Digite o primeiro número: "))
