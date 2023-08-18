@@ -31,6 +31,8 @@ while flag:
     elif operation == 4:
         res = n1 / n2
     elif operation == 5: # add na iss#01
+        print("Fechando programa...") # add na iss#01
+        time.sleep(1) # add na iss#01
         exit() # add na iss#01
     else:
         print("Opção inválida!")
