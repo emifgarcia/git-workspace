@@ -30,6 +30,9 @@ while flag:
         res = n1 * n2
     elif operation == 4:
         res = n1 / n2
+    elif operation == 5: # add na iss#02
+        print("Ainda não temos essa opção implementada, digite um número de 1 a 4.") # add na iss#02
+        continue # add na iss#02
     else:
         print("Opção inválida!")
         continue
