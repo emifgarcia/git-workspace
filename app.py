@@ -10,7 +10,7 @@ __license__ = "unlicense"
 n1 = float(input("Digite o primeiro número: "))
 n2 = float(input("Digite o segundo número: "))
 time.sleep(1)
-print("Operações:\n1-Soma\n2-Subtração\n3-Multiplicação\n4-Divisão")
+print("Operações:\n1-Soma\n2-Subtração\n3-Multiplicação\n4-Divisão\n5-Sair do programa")
 
 oper = {
     1:"soma",
